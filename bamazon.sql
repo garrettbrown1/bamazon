@@ -5,7 +5,7 @@ CREATE TABLE Products (
   Product_name VARCHAR (50)  NOT NULL,
   Department_name VARCHAR (25)  NOT NULL,
   Price Decimal (6,2) NOT NULL,
-  Stock_quantity INTEGER(11)  NOT NULL,
+  Stock_quantity INT(11)  NOT NULL,
   Primary Key (item_id)
   );
   
